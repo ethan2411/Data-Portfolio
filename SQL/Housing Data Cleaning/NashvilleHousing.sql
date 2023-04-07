@@ -1,5 +1,3 @@
--- Active: 1680755937802@@127.0.0.1@3306@nashvillehousing
-
 -- Looking at all the data
 Select *
 From nashvillehousing;
@@ -84,3 +82,63 @@ SET OwnerSplitState = TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(OwnerAddress, ',', 3)
 -- Checking Results
 Select OwnerSplitAddress, OwnerSplitCity, OwnerSplitState
 From nashvillehousing;
+
+-- Editing 'SoldAsVacant' to have consistent values
+Select DISTINCT(SoldAsVacant), count(SoldAsVacant)
+From nashvillehousing
+GROUP BY SoldAsVacant
+ORDER BY 2;
+
+-- Consolidating values
+Select SoldAsVacant,
+    CASE 
+        WHEN SoldAsVacant ='Y' THEN  'Yes'
+        WHEN SoldAsVacant ='N' THEN  'No'
+        ELSE  SoldAsVacant 
+    END
+From nashvillehousing;
+
+-- Updating columns
+UPDATE nashvillehousing
+set SoldAsVacant = CASE 
+        WHEN SoldAsVacant ='Y' THEN  'Yes'
+        WHEN SoldAsVacant ='N' THEN  'No'
+        ELSE  SoldAsVacant 
+    END;
+
+--Finding duplicate values using CTE
+With RowNumCTE as(
+    SELECT *, 
+    ROW_NUMBER() over(
+        PARTITION BY ParcelID, PropertyAddress, SaleDate, SalePrice, LegalReference
+        ORDER BY UniqueID) as row_num
+FROM nashvillehousing)
+
+Select *
+From RowNumCTE
+where row_num >1
+ORDER BY PropertyAddress;
+
+-- My DB won't allow deletion through CTE's so I deleted them this way
+-- even though i found the duplicates with a CTE
+Delete FROM nashvillehousing
+WHERE UniqueID IN (
+  SELECT UniqueID
+  FROM (
+    SELECT UniqueID, ROW_NUMBER() OVER (
+      PARTITION BY ParcelID, PropertyAddress, SaleDate, SalePrice, LegalReference
+      ORDER BY UniqueID
+    ) as row_num
+    FROM nashvillehousing
+  ) as RowNumCTE
+  WHERE row_num > 1
+);
+
+-- Removing unused Columns (`PropertyAddress` and `OwnerAddress`)
+-- Since new columns have been made for those
+Select *
+From nashvillehousing;
+
+Alter table nashvillehousing
+drop column OwnerAddress,
+drop column PropertyAddress;
