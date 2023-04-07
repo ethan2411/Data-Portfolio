@@ -1,7 +1,7 @@
 # Data-Portfolio
 This is a repository of my personal data projects!
 
-SQL Folder Contents:
+**SQL Folder Contents:**
   - Covid Data Exploration:
       - Used SQL to explore Covid Data
       - Joined CovidDeaths tables and CovidVaccinations tables to gather more insight
