@@ -19,3 +19,9 @@ This is a repository of my personal data projects!
       - Updated inconsistent data values in the SoldAsVacant column using CASE and UPDATE functions to ensure data consistency.
       - Identified and deleted duplicate records using common table expressions (CTEs) and the DELETE function, improving data accuracy and reliability.
       - Utilized SQL queries to drop unused columns from the dataset using ALTER TABLE, improving database performance and storage efficiency.
+
+**Tableau Folder Contents:**
+  - Airbnb Analysis:
+      - Designed and developed a Tableau dashboard to analyze Seattle Airbnb data, enabling easy visualization of price trends by zipcode and number of bedrooms.
+      - Used Tableau to create interactive charts and maps, allowing users to drill down into specific areas of interest and gain deeper insights into pricing patterns.
+      - Leveraged Tableau's advanced analytics capabilities to identify key factors driving pricing variations, enabling more informed decision-making for both buyers and sellers in the Seattle Airbnb market.
