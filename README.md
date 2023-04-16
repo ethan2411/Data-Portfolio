@@ -6,6 +6,13 @@ This is a repository of my personal data projects!
       - Used Excel to clean data by removing duplicates, changing column formats, and adding columns to make data more usable.
       - Created pivot tables to make easy to read charts to display important information.
       - Created a dashboard with visualizations and slicers to gain additional insight into bike sales.
+      
+      
+**PowerBI Folder Contents:**
+  - Data Jobs Analysis:
+      - Dashboard created using Power BI for data analysis in the data field job market.
+      - Visualizations including average salary by title and country, total number of participants, average age of participants, preferred programming languages, and happiness with salary and work/life balance.
+      - Provides comprehensive insights on compensation trends, demographics, and satisfaction levels in the data field, offering valuable information for decision-makers and stakeholders.
 
 
 **SQL Folder Contents:**
