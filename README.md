@@ -21,6 +21,9 @@ This is a repository of my personal data projects!
       - Joined the two datasets to show the relationship between population, vaccinations, and deaths.
       - Created several views and queries to analyze Covid-19 data, including identifying countries with the highest infection and death rates.
       - Utilized techniques such as calculating percentages and cumulative sums, and employed Common Table Expressions (CTEs) and temporary tables in the data analysis.
+      - Used Tableau to create a visual dashboard incorporating the insights gained from the SQL queries.
+      - Developed interactive visualizations in Tableau to provide a comprehensive overview of Covid-19 data, including trend analysis, and geographical distributions across different countries.
+      
   - Housing Data Cleaning:
       - Developed SQL queries to identify and update missing property address data in a Nashville Housing dataset using COALESCE, SUBSTRING_INDEX, and LOCATE functions.
       - Separated property and owner address data into individual columns using ALTER TABLE, UPDATE, and TRIM functions to enable easier analysis of the dataset.
@@ -35,3 +38,11 @@ This is a repository of my personal data projects!
       - Used Tableau to create interactive charts and maps, allowing users to drill down into specific areas of interest and gain deeper insights into pricing patterns.
       - Leveraged Tableau's advanced analytics capabilities to identify key factors driving pricing variations, enabling more informed decision-making for both buyers and sellers in the Seattle Airbnb market.
       - Link to Tableau Public Dashboard View: https://public.tableau.com/app/profile/ethan2411/viz/AirbnbDashboard_16810667112040/Dashboard1
+      
+  - Covid Data Exploration:
+      - Used Tableau to create a visual dashboard incorporating the insights gained from the SQL queries.
+      - Developed interactive visualizations in Tableau to provide a comprehensive overview of Covid-19 data, including trend analysis, and geographical distributions across different countries.
+      - Performed data analysis on Covid-19 data from two datasets (CovidDeaths and CovidVaccinations).
+      - Joined the two datasets to show the relationship between population, vaccinations, and deaths.
+      - Created several views and queries to analyze Covid-19 data, including identifying countries with the highest infection and death rates.
+      - Utilized techniques such as calculating percentages and cumulative sums, and employed Common Table Expressions (CTEs) and temporary tables in the data analysis.
