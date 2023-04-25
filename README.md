@@ -1,8 +1,8 @@
 # Data-Portfolio
 This is a repository of my personal data projects!
 
-##Excel Folder Contents:
-  ###Bike Sales Analysis:
+#Excel Folder Contents:
+  ##Bike Sales Analysis:
       - Used Excel to clean data by removing duplicates, changing column formats, and adding columns to make data more usable.
       - Created pivot tables to make easy to read charts to display important information.
       - Created a dashboard with visualizations and slicers to gain additional insight into bike sales.
