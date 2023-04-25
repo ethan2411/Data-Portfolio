@@ -1,5 +1,10 @@
 # Data-Portfolio
 This is a repository of my personal data projects!
+## Table of Contents
+- [Excel Projects](#excel-projects)
+- [PowerBI Projects](#powerbi-projects)
+- [SQL Projects](#sql-projects)
+- [Tableau Projects](#tableau-projects)
 
 ## Excel Projects:
   ### [Bike Sales Analysis](https://github.com/ethan2411/Data-Portfolio/tree/main/Excel/Bike%20Sales%20Analysis):
