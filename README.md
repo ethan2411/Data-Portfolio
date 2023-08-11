@@ -3,6 +3,7 @@ This is a repository of my personal data projects!
 ## Table of Contents
 - [Excel Projects](#excel-projects)
 - [PowerBI Projects](#powerbi-projects)
+- [Python Projects](#python-projects)
 - [SQL Projects](#sql-projects)
 - [Tableau Projects](#tableau-projects)
 
@@ -19,7 +20,14 @@ This is a repository of my personal data projects!
       - Visualizations including average salary by title and country, total number of participants, average age of participants, preferred programming languages, and happiness with salary and work/life balance.
       - Provides comprehensive insights on compensation trends, demographics, and satisfaction levels in the data field, offering valuable information for decision-makers and stakeholders.
 
-
+## Python Projects:
+  ### [K-Means Clustering for an Optimal Portfolio](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/K-Means/K-Means%20for%20Stock%20Portfolio.ipynb):
+      - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
+      - Leveraged K-Means clustering to create well-defined stock clusters, driven by returns and volatility patterns.
+      - Employed advanced methodologies, including Z-score for outlier detection and the Elbow and Silhouette methods for optimal cluster selection.
+      - Optimized portfolio diversification with a meticulous selection of one stock from each strategically derived cluster.
+      - Showcased advanced proficiency in Python (pandas, scikit-learn), expertly utilized for data analysis, visualization, and machine learning, elevating data-driven decision-making capabilities.
+      
 ## SQL Projects:
   ### [Covid Data Exploration](https://github.com/ethan2411/Data-Portfolio/tree/main/SQL/Covid%20Data%20Exploration):
       - Performed data analysis on Covid-19 data from two datasets (CovidDeaths and CovidVaccinations).
