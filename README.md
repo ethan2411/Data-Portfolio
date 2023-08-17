@@ -21,7 +21,7 @@ This is a repository of my personal data projects!
       - Provides comprehensive insights on compensation trends, demographics, and satisfaction levels in the data field, offering valuable information for decision-makers and stakeholders.
 
 ## Python Projects:
-  ### [K-Means Clustering for an Optimal Portfolio](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
+  ### [Portfolio Diversification with K-Means, DBSCAN, and GMM Clustering](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
       - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
       - Employed K-Means clustering, DBSCAN, and Gaussian Mixture Models (GMM) to reveal patterns in stock market data and engineer investment portfolios that balance risk and return.
       - Implemented the Elbow Method and Silhouette Method to determine the optimal number of clusters for K-Means clustering, leading to insightful insights into stock groupings.
