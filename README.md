@@ -21,11 +21,13 @@ This is a repository of my personal data projects!
       - Provides comprehensive insights on compensation trends, demographics, and satisfaction levels in the data field, offering valuable information for decision-makers and stakeholders.
 
 ## Python Projects:
-  ### [K-Means Clustering for an Optimal Portfolio](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/K-Means/K-Means%20for%20Stock%20Portfolio.ipynb):
+  ### [Portfolio Diversification with K-Means, DBSCAN, and GMM Clustering](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
       - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
-      - Leveraged K-Means clustering to create well-defined stock clusters, driven by returns and volatility patterns.
-      - Employed advanced methodologies, including Z-score for outlier detection and the Elbow and Silhouette methods for optimal cluster selection.
-      - Optimized portfolio diversification with a meticulous selection of one stock from each strategically derived cluster.
+      - Employed K-Means clustering, DBSCAN, and Gaussian Mixture Models (GMM) to reveal patterns in stock market data and engineer investment portfolios that balance risk and return.
+      - Implemented the Elbow Method and Silhouette Method to determine the optimal number of clusters for K-Means clustering, leading to insightful insights into stock groupings.
+      - Utilized DBSCAN, a density-based clustering algorithm, to detect clusters of varying shapes and sizes, enhancing portfolio selection strategies.
+      - Leveraged Gaussian Mixture Models (GMM) to provide probabilistic clusters, adding a sophisticated layer to portfolio construction.
+      - Constructed investment portfolios using insights from each clustering model, resulting in diversified stock selections tailored to different risk appetites.
       - Showcased advanced proficiency in Python (pandas, scikit-learn), expertly utilized for data analysis, visualization, and machine learning, elevating data-driven decision-making capabilities.
       
 ## SQL Projects:
