@@ -7,6 +7,25 @@ This is a repository of my personal data projects!
 - [SQL Projects](#sql-projects)
 - [Tableau Projects](#tableau-projects)
 
+
+## Python Projects:
+  ### [Portfolio Diversification with K-Means, DBSCAN, and GMM Clustering](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
+      - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
+      - Employed K-Means clustering, DBSCAN, and Gaussian Mixture Models (GMM) to reveal patterns in stock market data and engineer investment portfolios that balance risk and return.
+      - Implemented the Elbow Method and Silhouette Method to determine the optimal number of clusters for K-Means clustering, leading to insightful insights into stock groupings.
+      - Utilized DBSCAN, a density-based clustering algorithm, to detect clusters of varying shapes and sizes, enhancing portfolio selection strategies.
+      - Leveraged Gaussian Mixture Models (GMM) to provide probabilistic clusters, adding a sophisticated layer to portfolio construction.
+      - Constructed investment portfolios using insights from each clustering model, resulting in diversified stock selections tailored to different risk appetites.
+      - Showcased advanced proficiency in Python (pandas, scikit-learn), expertly utilized for data analysis, visualization, and machine learning, elevating data-driven decision-making capabilities.
+
+
+  ### [Stock Prediction using Neural Networks (RNN and LSTM)](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Price%20Prediction/Stock%20Prediction.ipynb):
+      - Conducted extensive analysis of historical stock price data from a diverse portfolio of companies, meticulously quantifying price trends, and volatility.
+      - Employed state-of-the-art techniques, including Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks, to develop predictive models for stock prices.
+      - Utilized Min-Max scaling to preprocess the data, ensuring it was suitable for deep learning model training.
+      - Conducted rigorous model evaluation using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Mean Percentage Absolute Error (MPAE).
+      - Demonstrated expertise in selecting the most appropriate algorithm (LSTM) based on its ability to capture temporal dependencies in stock price data, leading to superior predictive performance.
+
 ## Excel Projects:
   ### [Bike Sales Analysis](https://github.com/ethan2411/Data-Portfolio/tree/main/Excel/Bike%20Sales%20Analysis):
       - Used Excel to clean data by removing duplicates, changing column formats, and adding columns to make data more usable.
@@ -19,16 +38,7 @@ This is a repository of my personal data projects!
       - Dashboard created using Power BI for data analysis in the data field job market.
       - Visualizations including average salary by title and country, total number of participants, average age of participants, preferred programming languages, and happiness with salary and work/life balance.
       - Provides comprehensive insights on compensation trends, demographics, and satisfaction levels in the data field, offering valuable information for decision-makers and stakeholders.
-
-## Python Projects:
-  ### [Portfolio Diversification with K-Means, DBSCAN, and GMM Clustering](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
-      - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
-      - Employed K-Means clustering, DBSCAN, and Gaussian Mixture Models (GMM) to reveal patterns in stock market data and engineer investment portfolios that balance risk and return.
-      - Implemented the Elbow Method and Silhouette Method to determine the optimal number of clusters for K-Means clustering, leading to insightful insights into stock groupings.
-      - Utilized DBSCAN, a density-based clustering algorithm, to detect clusters of varying shapes and sizes, enhancing portfolio selection strategies.
-      - Leveraged Gaussian Mixture Models (GMM) to provide probabilistic clusters, adding a sophisticated layer to portfolio construction.
-      - Constructed investment portfolios using insights from each clustering model, resulting in diversified stock selections tailored to different risk appetites.
-      - Showcased advanced proficiency in Python (pandas, scikit-learn), expertly utilized for data analysis, visualization, and machine learning, elevating data-driven decision-making capabilities.
+      
       
 ## SQL Projects:
   ### [Covid Data Exploration](https://github.com/ethan2411/Data-Portfolio/tree/main/SQL/Covid%20Data%20Exploration):
