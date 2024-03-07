@@ -9,6 +9,9 @@ This is a repository of my personal data projects!
 
 
 ## Python Projects:
+  ### [Value at Risk for Portfolio](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/VaR/Value_at_Risk.ipynb):
+      - Used Historical, Parametric and Monte Carlo Methods to calculate VaR of a portfolio
+      
   ### [Portfolio Diversification with K-Means, DBSCAN, and GMM Clustering](https://github.com/ethan2411/Data-Portfolio/blob/main/Python/Stock%20Clustering/Portfolio%20Divversification%20Based%20on%20Clusters.ipynb):
       - Conducted in-depth analysis of historical S&P 500 stock data, precisely quantifying annual returns and volatility.
       - Employed K-Means clustering, DBSCAN, and Gaussian Mixture Models (GMM) to reveal patterns in stock market data and engineer investment portfolios that balance risk and return.
